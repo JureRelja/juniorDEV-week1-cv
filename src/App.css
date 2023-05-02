@@ -1,0 +1,118 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  width: 100%;
+}
+
+.zivotopis {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9F5EB;
+  padding: 50px 0;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  row-gap: 20px;
+  padding: 50px;
+  background-color: #F7C04A;
+  box-shadow: 10px 10px 40px 0px #EAE3D2;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 35px;
+  color: #1C3879;
+}
+
+.profilePic {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #1C3879;
+}
+
+.templateBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #3F497F;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.templateBox-header {
+  font-size: 30px;
+  font-weight: 800;
+  color: #EAE3D2;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F9F5EB;
+}
+
+.dataTemplate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 16px;
+  color: #EAE3D2;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.skillLevel-outer {
+  background-color: #F9F5EB;
+  border-radius: 15px;
+  padding-right: 5px;
+}
+
+.skillLevel-inner {
+  background-color: #EAE3D2;
+  height: 100%;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+
+.skillLevel-text {
+  text-align: right;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 350px;
+  }
+}
+  
