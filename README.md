@@ -1,4 +1,4 @@
-In march 2023 I atended a 2 month long React education at [Digitalna Dalmacija](https://digitalnadalmacija.hr/). The education lasted for 8 weeks, and every week I was required to build a new project. This is the projects I build in the 1st week.
+In March 2023 I attended a 2-month long React education at [Digitalna Dalmacija](https://digitalnadalmacija.hr/). The education lasted for 8 weeks, and every week I was required to build a new project. This is the projects I build in the 1st week.
 
 ## Table of contents
 
